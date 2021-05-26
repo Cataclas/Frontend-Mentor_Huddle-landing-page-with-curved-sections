@@ -17,10 +17,10 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 - Semantic HTML5 markup
 - [CSS custom properties](https://devdocs.io/css/)
-- (@media)[https://devdocs.io/css/@media]
-- (@keyframes)[https://devdocs.io/css/@keyframes]
+- [@media](https://devdocs.io/css/@media)
+- [@keyframes](https://devdocs.io/css/@keyframes)
 - Responsive
-- (jQuery)[https://api.jquery.com/]
+- [jQuery](https://api.jquery.com/)
  
 
 ## Author
