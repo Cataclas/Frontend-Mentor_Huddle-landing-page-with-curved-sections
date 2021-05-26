@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+</head>
+
+<body>
+    <header>
+        <img class="header__logo" src="images/logo.svg" alt="Logo Huddle">
+        <button class="header__button btn-pink-outline btn-pill">Try it Free</button>
+    </header>
+    <section id="intro" class="intro">
+        <h1 class="intro__title">Build The Community Your Fans Will Love</h1>
+        <p class="intro__text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="intro__button btn-pill btn-pink">Get Started For Free</button>
+        <img class="intro__mockup" src="images/screen-mockups.svg" alt="mockup">
+        <div class="intro__numbers animate">
+            <div class="intro__numbers__item right">
+                <img class="intro__numbers__icon" src="images/icon-communities.svg" alt="icon">
+                <h2 class="intro__numbers__title">1.4k+</h2>
+                <span class="intro__numbers__subtitle">Communities Formed</span>
+            </div>
+            <div class="intro__numbers__item left">
+                <img class="intro__numbers__icon" src="images/icon-messages.svg" alt="icon">
+                <h2 class="intro__numbers__title">2.7m+</h2>
+                <span class="intro__numbers__subtitle">Messages Sent</span>
+            </div>
+        </div>
+    </section>
+    <section id="grow_together" class="section section--left animate">
+        <div class="section__info right">
+            <h2 class="section__title">Grow Together</h2>
+            <p class="section__text">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="section__illustration zoom">
+            <img class="section__image" src="images/illustration-grow-together.svg" alt="image_grow_together">
+        </div>
+    </section>
+    <section id="flowing_conversations" class="section section--right animate">
+        <div class="section__info left">
+            <h2 class="section__title">Flowing Conversations</h2>
+            <p class="section__text">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+        <div class="section__illustration zoom">
+            <img class="section__image" src="images/illustration-flowing-conversation.svg" alt="image_flowing_conversations">
+        </div>
+    </section>
+    <section id="your_users" class="section section--left animate">
+        <div class="section__info right">
+            <h2 class="section__title">Your Users</h2>
+            <p class="section__text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <div class="section__illustration zoom">
+            <img class="section__image" src="images/illustration-your-users.svg" alt="image_your_users">
+        </div>
+    </section>
+    <section id="ready" class="animate">
+        <h2 class="ready__title top">Ready To Build Your Community?</h2>
+        <button class="btn-pill btn-pink zoom">Get Started For Free</button>
+    </section>
+    <section id="contact" class="section section--left contact animate">
+        <div class="contact__section right">
+            <img class="contact__logo" src="images/logo-white.png" alt="logo">
+            <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+            <span class="contact__item">
+                <img class="contact__item__icon" src="images/icon-phone.svg" alt="icon_phone"> Phone: +1-543-123-4567
+            </span>
+            <span class="contact__item">
+                <img class="contact__item__icon" src="images/icon-email.svg" alt="icon_email"> example@huddle.com
+            </span>
+            <div id="redes" class="contact__social">
+                <a class="contact__social__link" href="https://www.facebook.com/">
+                    <i class="contact__social__icon fab fa-facebook-square"></i>
+                </a>
+                <a class="contact__social__link" href="https://www.instagram.com/">
+                    <i class="contact__social__icon fab fa-instagram"></i>
+                </a>
+                <a class="contact__social__link" href="https://twitter.com/">
+                    <i class="contact__social__icon fab fa-twitter-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="contact__section left">
+            <h2 class="contact__subtitle">Newsletter</h2>
+            <p class="contact__text">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+            <form id="subscribe" class="contact__form">
+                <input class="contact__form__input" type="text">
+                <label class="contact__form__message"></label>
+                <button class="contact__form__button btn-pink">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__attribution">
+            Challenge by <a class="footer__link" href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2" target="_blank">Frontend Mentor</a>. Coded by <a class="footer__link" href="https://github.com/Cataclas"
+                target="_blank">Catalina Clavijo</a>.
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
